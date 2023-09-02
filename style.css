@@ -1,0 +1,55 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* คำสั่ง CSS สำหรับฟิลด์เบอร์โทรศัพท์ */
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* คำสั่ง CSS สำหรับข้อความที่บอกให้ใส่เบอร์โทรศัพท์ 10 หลัก */
+label[for="phone"]::after {
+    content: " (ใส่เบอร์โทรศัพท์ 10 หลัก)";
+    color: #999;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#credit-info {
+    margin-top: 20px;
+}
